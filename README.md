@@ -1,5 +1,18 @@
 ## Octobots: A Multi-Threaded Python Data Pipeline
 
+---
+## Warning
+<i>
+I've developed this project to automate fetching data from multiple sources, such as Oracle DBs and MSSQL Server DBs. At the time, I had a very tight schedule, only a month or so to implement all the features I could think of.
+
+That being said, this is a **very untidy codebase** that has a lot of **rooms for improvement**, e.g. no module and class has been written, no docstring inside classes and functions, etc.
+
+Since I no longer have access to the infrastructure I used to develop, the iteration speed is much slower. See `TODOs` section below for current pending tasks.
+
+</i>
+
+---
+
 Main entry point: `octobots.py`
 
 ### What it does
@@ -41,9 +54,9 @@ SALT = b"another-secret-string"
 - `utils.py` works on utility functions such as version keeping, getting user input, printing info, time conversion, etc.
 - `TableIt.py` is a 3rd party library that handles table printing for better command line interface.
 
-### TODO:
+### TODOs:
 
-- Find relevant use cases for a Python data pipeline
-- Architecture for a more modern data streaming pipeline
-- Rewriting modules in standard Python classes
+- Structure codebase into modules with `__init__`, and optionally `setup.py`
+- Structure functions into classes
+- Write docstrings for documentation
 - More tasks TBD...
