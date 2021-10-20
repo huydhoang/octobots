@@ -3,11 +3,14 @@
 ---
 ## Warning
 <i>
+
 I've developed this project to automate fetching data from multiple sources, such as Oracle DBs and MSSQL Server DBs. At the time, I had a very tight schedule, only a month or so to implement all the features I could think of.
 
 That being said, this is a **very untidy codebase** that has a lot of **rooms for improvement**, e.g. no module and class has been written, no docstring inside classes and functions, etc.
 
 Since I no longer have access to the infrastructure I used to develop, the iteration speed is much slower. See `TODOs` section below for current pending tasks.
+
+Should you have any problem adapting the code to your needs, kindly [open a new issue](https://github.com/huydhoang/octobots/issues) to discuss it with me.
 
 </i>
 
